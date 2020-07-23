@@ -118,9 +118,9 @@ echo 'mkdir data <br>';
 
 echo 'cd data<br>';
 
-echo 'curl -O https://raw.githubusercontent.com/ritua2/BOINCatTACC/master/stampede2-backend/S2-test-files/ElasticFrame.tcl<br>';
+echo 'curl -O https://raw.githubusercontent.com/ritua2/BOINCatTACC/master/stampede2-backend/S2-test-files/OpenSees/ElasticFrame.tcl<br>';
 
-echo 'curl -O https://raw.githubusercontent.com/ritua2/BOINCatTACC/master/stampede2-backend/S2-test-files/MomentCurvature.tcl<br>';
+echo 'curl -O https://raw.githubusercontent.com/ritua2/BOINCatTACC/master/stampede2-backend/S2-test-files/OpenSees/MomentCurvature.tcl<br>';
 
 echo 'cd ..<br>';
 
@@ -187,7 +187,7 @@ echo '<h3 id="go_4">'.tra("4. Example: Step-by-Step Instructions for Running the
 echo "<ul>
 	<li>Obtain the necessary files<br></li>
 	</ul>
-	<pre><code class=\"lang-bash\">curl -O https:<span class=\"hljs-regexp\">//</span>raw.githubusercontent.com<span class=\"hljs-regexp\">/ritua2/</span>BOINCatTACC<span class=\"hljs-regexp\">/master/</span>stampede2-backend<span class=\"hljs-regexp\">/S2-test-files/</span>MC.tcl
+	<pre><code class=\"lang-bash\">curl -O https:<span class=\"hljs-regexp\">//</span>raw.githubusercontent.com<span class=\"hljs-regexp\">/ritua2/</span>BOINCatTACC<span class=\"hljs-regexp\">/master/</span>stampede2-backend<span class=\"hljs-regexp\">/S2-test-files/OpenSees/MC.tcl
 	</code></pre>
 	<ul>
 	<li>Run <em>advance-submit.sh</em> :</li>
